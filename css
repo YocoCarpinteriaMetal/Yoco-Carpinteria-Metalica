@@ -1,0 +1,10 @@
+.nav__logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  width: 30px;  /* Ajusta el tamaño según sea necesario */
+  height: auto;
+  margin-right: 10px;  /* Espacio entre el logo y el texto */
+}
