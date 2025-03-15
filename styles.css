@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+@font-face {
+  font-family: 'Super Kids';
+  src: url('fonts/SuperKids.woff2') format('woff2'),
+       url('fonts/SuperKids.woff') format('woff'),
+       url('fonts/SuperKids.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 
 :root {
   --primary-color: #3685fb;
@@ -32,6 +43,7 @@
 }
 
 .section__title {
+  font-family: 'Super Kids', sans-serif;
   font-size: 2rem;
   font-weight: 600;
   color: var(--text-dark);
@@ -43,6 +55,12 @@
   color: var(--text-dark);
   max-width: calc(var(--max-width) / 2);
 }
+.header__content h1 {
+  font-family: 'Super Kids', sans-serif !important;
+  font-size: 1rem; /* Ajusta el tamaño si es necesario */
+  color: #2f73d9; /* Ajusta el color si lo deseas */
+}
+
 
 .btn {
   padding: 0.75rem 2rem;
@@ -90,14 +108,19 @@ nav {
   align-items: center;
   font-size: 24px;
   font-weight: bold;
-  color: #2f73d9;
+  color: #071d3f;
+  font-family: 'Super Kids', sans-serif;
 }
 
+
 .logo-icon {
-  width: 30px; /* Ajusta el tamaño según necesites */
-  height: auto;
+  width: 70px; /* Ajusta el tamaño según necesites */
+  height: 70px; /* Asegura que sea un círculo */
+  border-radius: 50%; /* Hace que la imagen sea circular */
+  object-fit: cover; /* Ajusta la imagen para que encaje bien en el círculo */
   margin-right: 10px; /* Espacio entre el logo y el texto */
 }
+
 
 
 
@@ -645,7 +668,7 @@ header {
 
 .nav__social a {
   font-size: 44px;
-  color: #3685fb;
+  color: #031229;
   transition: 0.3s;
 }
 

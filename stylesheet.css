@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Super Kids';
+    src: url('SuperKids.woff2') format('woff2'),
+        url('SuperKids.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
